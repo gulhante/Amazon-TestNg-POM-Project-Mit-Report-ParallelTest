@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c923ca-5198-43f1-8d83-61d1ad04428f" name="Changes" comment="pom xml dependency hinzugefügt">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AmazonWithAllureReport_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AmazonWithAllureReport_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7c923ca-5198-43f1-8d83-61d1ad04428f" name="Changes" comment="project ist vorbei" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691835053097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project ist vorbei">
+      <created>1691838685331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691838685331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +125,7 @@
     <MESSAGE value="tests hinzugefügt" />
     <MESSAGE value="utilities hinzugefügt" />
     <MESSAGE value="pom xml dependency hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom xml dependency hinzugefügt" />
+    <MESSAGE value="project ist vorbei" />
+    <option name="LAST_COMMIT_MESSAGE" value="project ist vorbei" />
   </component>
 </project>
