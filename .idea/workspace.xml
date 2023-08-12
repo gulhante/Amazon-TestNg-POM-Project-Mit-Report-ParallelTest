@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7c923ca-5198-43f1-8d83-61d1ad04428f" name="Changes" comment="pom xml dependency hinzugefügt">
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AmazonWithAllureReport_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AmazonWithAllureReport_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2TsbMfaS9iNL7t5C26Zn3sD9x1i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gulha/IdeaProjects/AmazonPOMProjectWithReport&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gulha\IdeaProjects\AmazonPOMProjectWithReport" />
+      <recent name="C:\Users\gulha\IdeaProjects\AmazonPOMProjectWithReport\src\test\java\utilities" />
+      <recent name="C:\Users\gulha\IdeaProjects\AmazonPOMProjectWithReport\src\test\java\tests" />
+      <recent name="C:\Users\gulha\IdeaProjects\AmazonPOMProjectWithReport\src\test\java\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AmazonWithAllureReport_Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazonProjectWithReport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AmazonWithAllureReport_Tests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AmazonWithAllureReport_Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7c923ca-5198-43f1-8d83-61d1ad04428f" name="Changes" comment="" />
+      <created>1691834689987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691834689987</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pages hinzugefügt">
+      <created>1691834847595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691834847595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tests hinzugefügt">
+      <created>1691834888429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691834888429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="utilities hinzugefügt">
+      <created>1691834923638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691834923638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pom xml dependency hinzugefügt">
+      <created>1691835053097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691835053097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pages hinzugefügt" />
+    <MESSAGE value="tests hinzugefügt" />
+    <MESSAGE value="utilities hinzugefügt" />
+    <MESSAGE value="pom xml dependency hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom xml dependency hinzugefügt" />
+  </component>
+</project>

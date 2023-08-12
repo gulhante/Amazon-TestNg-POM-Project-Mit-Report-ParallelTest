@@ -7,13 +7,13 @@ public class AmazonLoginPage extends AmazonBasePage{
 
     // Login Email auf der Website
     public void loginEmail(){
-        Driver.getDriver().findElement(By.xpath("//input[@type='email']")).sendKeys("xxxxx");
+        Driver.getDriver().findElement(By.xpath("//input[@type='email']")).sendKeys("xxxx");
         Driver.getDriver().findElement(By.xpath("//input[@id='continue']")).click();
     }
 
     // Login Password auf der Website
     public void loginPassword(){
-        Driver.getDriver().findElement(By.xpath("//input[@type='password']")).sendKeys("xxxxx*");
+        Driver.getDriver().findElement(By.xpath("//input[@type='password']")).sendKeys("xxxx");
     }
 
     // Anmelden click
