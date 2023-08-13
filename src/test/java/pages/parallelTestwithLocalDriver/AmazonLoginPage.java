@@ -2,28 +2,29 @@ package pages.parallelTestwithLocalDriver;
 
 import org.openqa.selenium.By;
 import utilities.Driver;
+import utilities.WebDriverFactoryStaticThreadLocal;
 
 public class AmazonLoginPage extends AmazonBasePage {
 
     // Login Email auf der Website
     public void loginEmail(){
-        Driver.getDriver().findElement(By.xpath("//input[@type='email']")).sendKeys("xxxx");
-        Driver.getDriver().findElement(By.xpath("//input[@id='continue']")).click();
+        WebDriverFactoryStaticThreadLocal.getDriver().findElement(By.xpath("//input[@type='email']")).sendKeys("xxxx");
+        WebDriverFactoryStaticThreadLocal.getDriver().findElement(By.xpath("//input[@id='continue']")).click();
     }
 
     // Login Password auf der Website
     public void loginPassword(){
-        Driver.getDriver().findElement(By.xpath("//input[@type='password']")).sendKeys("xxxx");
+        WebDriverFactoryStaticThreadLocal.getDriver().findElement(By.xpath("//input[@type='password']")).sendKeys("xxxx");
     }
 
     // Anmelden click
     public void login(){
-        Driver.getDriver().findElement(By.id("signInSubmit")).click();
+        WebDriverFactoryStaticThreadLocal.getDriver().findElement(By.id("signInSubmit")).click();
     }
 
 
     // Überprüfen Sie, ob der Abmeldevorgang abgeschlossen ist.
     public String abmeldenVerify(){
-        return Driver.getDriver().findElement(By.xpath("//h1[@class='a-spacing-small']")).getText();
+        return WebDriverFactoryStaticThreadLocal.getDriver().findElement(By.xpath("//h1[@class='a-spacing-small']")).getText();
     }
 }
