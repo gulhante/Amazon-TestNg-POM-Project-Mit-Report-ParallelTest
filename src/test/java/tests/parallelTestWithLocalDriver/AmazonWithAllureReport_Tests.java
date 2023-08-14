@@ -7,31 +7,33 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.*;
-import utilities.ConfigurationReader;
-import utilities.Driver;
+import pages.parallelTestwithLocalDriver.amazon.*;
 import utilities.WebDriverFactoryStaticThreadLocal;
+
+import java.time.Duration;
 
 
 public class AmazonWithAllureReport_Tests {
 
 
-    AmazonBasePage basePage = new AmazonBasePage();
-    AmazonHomePage homePage = new AmazonHomePage();
-    AmazonLoginPage loginPage = new AmazonLoginPage();
-    AmazonSearchPage searchPage = new AmazonSearchPage();
-    AmazonCartPage cartPage = new AmazonCartPage();
+    AmazonBasePageLocal basePage = new AmazonBasePageLocal();
+    AmazonHomePageLocal homePage = new AmazonHomePageLocal();
+    AmazonLoginPageLocal loginPage = new AmazonLoginPageLocal();
+    AmazonSearchPageLocal searchPage = new AmazonSearchPageLocal();
+    AmazonCartPageLocal cartPage = new AmazonCartPageLocal();
 
     @BeforeClass
     public void setUp() {
-        WebDriverFactoryStaticThreadLocal.setDriver();
+        WebDriverFactoryStaticThreadLocal.setDriver("chrome");
+        WebDriverFactoryStaticThreadLocal.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        WebDriverFactoryStaticThreadLocal.getDriver().manage().window().maximize();
     }
 
     @Description("Amazon-Website öffnen https://www.amazon.com")
     @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 1)
     public void WebSeiteOffnenTest(){
-        WebDriverFactoryStaticThreadLocal.getDriver().get(ConfigurationReader.getProperty("amazonUrl"));
+        WebDriverFactoryStaticThreadLocal.getDriver().get("https://www.amazon.com");
         // Startseite wird geöffnet und überprüft
         Assert.assertTrue(WebDriverFactoryStaticThreadLocal.getDriver().getTitle().contains("Amazon"));
     }
